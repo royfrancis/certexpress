@@ -2,8 +2,7 @@ name: docker-ghcr
 on:
   workflow_dispatch:
   push:
-    tags:
-      - v*
+    tags
 
 env:
   REGISTRY: ghcr.io
