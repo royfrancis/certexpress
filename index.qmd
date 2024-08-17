@@ -1,0 +1,18 @@
+---
+headnotes-1: "Limitless Paper in a Paperless World"
+headnotes-2: "Dunder Mifflin • Training"
+title: "Certificate"
+bg-image: 
+  path: "assets/theme.png"
+logo-image:
+  path: "assets/logo.png"
+date: last-modified
+date-format: "[Printed] DD-MMM-YYYY [at] HH:mm[.]"
+papersize: a4
+format:
+  certexpress-typst:
+    keep-typ: false
+    font-paths: fonts
+---
+
+{{< include _body.qmd >}}

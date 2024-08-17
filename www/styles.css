@@ -1,0 +1,77 @@
+/* certexpress custom styles */
+
+.card.bslib-card {
+  height: calc(100vh - (calc(var(--bs-gutter-x) * .5))*2);
+  margin: calc(var(--bs-gutter-x) * .5) 0;
+}
+
+.bslib-sidebar-layout>.sidebar>.sidebar-content {
+  padding: 1em;
+  padding-top: 2em;
+  gap: 6px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.shiny-input-container .control-label {
+  margin-bottom: 0;
+}
+
+label.control-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  margin-left: 0.3rem;
+}
+
+hr {
+  color: gray;
+  margin: 0.8rem 0;
+}
+
+#out_pdf {
+  height: 100%;
+  overflow: hidden;
+}
+
+.form-control {
+  font-size: 0.8rem;
+}
+
+#in_names,
+#in_content,
+#in_teacher,
+#in_footnotes {
+  white-space: pre;
+}
+
+.help-note {
+  font-size: 0.7rem;
+  color: #C0C0C0;
+}
+
+.app-header {
+  padding: 1em;
+  background-image: url("banner.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.app-card-header {
+  padding: 0;
+}
+
+.app-footer {
+  background-color: #FFFFFF;
+  padding: 0.5em;
+}
+
+.btn {
+  padding: 0.5rem; 
+}
+
+textarea.form-control {
+  padding: 0.5rem;
+}
