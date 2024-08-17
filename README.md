@@ -2,7 +2,7 @@
 
 [![docker-ghcr](https://github.com/royfrancis/certexpress/actions/workflows/main.yml/badge.svg)](https://github.com/royfrancis/certexpress/actions/workflows/main.yml)
 
-This is an app to create PDF certificates for courses.
+An app to create PDF certificates for courses.
 
 ![](preview.webp)
 
